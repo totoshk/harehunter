@@ -1,0 +1,37 @@
+.field {
+    background: url('images/green-grass-field.jpg');
+    max-width: 1200;
+    height: 500px;
+    position: relative;
+}
+
+#hare {
+    width: 50px;
+    height: 50px;
+    background: url('images/hare.png') no-repeat 0 0;
+    background-size: 50px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#hunter {
+    margin-top: 15px;
+    height: 100px;
+    background: url('images/hunter.png') no-repeat 0 0;
+    background-size: 80px;
+    padding-left: 100px;
+    position: relative;
+
+    p {
+        position: absolute;
+        font-size: 18px;
+        top: 10px;
+        margin: 0;
+        left: 100px;
+        border: 1px solid #aaa;
+        border-radius: 45px;
+        width: 225px;
+        padding: 6px 8px 2px;
+    }
+}
